@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "backend-ai-scenario/src/main/java/com/backend_ai_scenario/controller/ScenarioAnalysisController.java",
+        "use": "@vercel/java"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "backend-ai-scenario/src/main/java/com/backend_ai_scenario/controller/ScenarioAnalysisController.java"
+      }
+    ]
+  }

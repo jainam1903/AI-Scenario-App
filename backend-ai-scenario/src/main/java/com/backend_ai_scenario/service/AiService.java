@@ -34,7 +34,7 @@ public class AiService {
     @Value("${openai.api.url:https://api.openai.com/v1/chat/completions}")
     private String openaiApiUrl;
     
-    @Value("${openai.model:gpt-4}")
+    @Value("${openai.model:gpt-4o-mini}")
     private String model;
     
     @Value("${openai.temperature:0.7}")

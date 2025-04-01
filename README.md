@@ -54,11 +54,11 @@ The application consists of two main parts:
 
 4. Open your browser and navigate to `http://localhost:3000` to use the application.
 
-## API Endpoint
+## API Endpoints
 
-The backend exposes a single API endpoint:
-
-- **POST /api/analyze-scenario**: Analyzes a scenario based on the provided description and constraints.
+- `GET /api/test` - Test if the API is working
+- `GET /api/test-openai` - Test if the OpenAI integration is working
+- `POST /api/analyze-scenario` - Analyze a scenario based on the provided description and constraints
 
 Request payload:
 ```json
